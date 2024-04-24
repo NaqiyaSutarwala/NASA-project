@@ -7,7 +7,7 @@ mongoose.connection.once("open", () => {
 });
 
 mongoose.connection.on("error", (error) => {
-  console.error("An error occurred", error);
+  console.error("An error occurred in here", error);
 });
 
 async function mongoConnect() {
